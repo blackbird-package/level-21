@@ -1,0 +1,11 @@
+NAME="Relax Raven"
+PRETTY_NAME="Relax Raven"
+ID=raven
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://raven.org/"
+DOCUMENTATION_URL="https://wiki.raven.org/"
+SUPPORT_URL="https://forum.raven.org/"
+BUG_REPORT_URL="https://raven.org/groups/issues"
+PRIVACY_POLICY_URL="https://terms.raven.org/docs/privacy-policy/"
+LOGO=relax-raven
