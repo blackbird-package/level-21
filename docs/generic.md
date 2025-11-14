@@ -76,22 +76,22 @@ rm -fr /etc/skel/.bash*
 mkdir /var/games/{playstation1,playstation2,nintendo-swicth,nintendo-wii,playstation3,xbox360,steam,epic,ubisoft}
 ```
 ```
-mkdir /var/games/playstation1/{firmware,keyprod,library}
+mkdir /var/games/playstation1/{engine,firmware,keyprod,library}
 ```
 ```
-mkdir /var/games/playstation2/{firmware,keyprod,library}
+mkdir /var/games/playstation2/{engine,firmware,keyprod,library}
 ```
 ```
-mkdir /var/games/playstation3/{firmware,keyprod,library}
+mkdir /var/games/playstation3/{engine,firmware,keyprod,library}
 ```
 ```
-mkdir /var/games/nintendo-wii/{firmware,keyprod,library}
+mkdir /var/games/nintendo-wii/{engine,firmware,keyprod,library}
 ```
 ```
-mkdir /var/games/nintendo-switch/{firmware,keyprod,library}
+mkdir /var/games/nintendo-switch/{engine,firmware,keyprod,library}
 ```
 ```
-mkdir /var/games/xbox360/{firmware,keyprod,library}
+mkdir /var/games/xbox360/{engine,firmware,keyprod,library}
 ```
 ```
 mkdir epic/{engine,prefix,library}
