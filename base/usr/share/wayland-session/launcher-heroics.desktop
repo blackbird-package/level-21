@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/xbin/launch-heroic
+TryExec=/usr/xbin/launch-heroic
+Name=Nintendo Wii
+Keywords=session
+Comment=session

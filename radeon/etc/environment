@@ -4,5 +4,5 @@
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
 
-LD_BIND_NOW=1
-export AMD_USERQ=1
+#LD_BIND_NOW=1
+#export AMD_USERQ=1

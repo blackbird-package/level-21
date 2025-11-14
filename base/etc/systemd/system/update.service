@@ -1,5 +1,5 @@
 [Unit]
-Description=Raven auto system update
+Description=Hawke auto system update
 
 [Service]
 Type=oneshot

@@ -1,5 +1,5 @@
 [Unit]
-Description=Raven auto system update hourly
+Description=Hawke auto system update hourly
 
 [Timer]
 OnCalendar=hourly

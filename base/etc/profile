@@ -11,13 +11,16 @@ append_path () {
     esac
 }
 
-# Append our default paths
+# append our default paths
 append_path '/usr/local/sbin'
-append_path '/usr/local/rbin'
 append_path '/usr/local/bin'
+append_path '/usr/rbin'
+append_path '/usr/xbin'
 append_path '/usr/bin'
 
-# Force PATH to be environment
+
+
+# force PATH to be environment
 export PATH
 
 # 
