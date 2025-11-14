@@ -26,7 +26,7 @@ pacman -S linux-zen amd-ucode mkinitcpio openssh firewalld wireless-regdb sof-fi
 git clone https://github.com/blackbird-package/level-21.git /tmp/
 ```
 ```
-cp -fr /tmp/level-21/base/* /
+cp -fr /tmp/base/* /
 ```
 *radeon*
 ```
