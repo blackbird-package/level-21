@@ -15,7 +15,7 @@ enable multilib
 pacman -Syy
 ```
 ```
-pacman -S linux-zen amd-ucode mkinitcpio openssh firewalld systemd-ukify wireless-regdb sof-firmware lib32-mesa mesa  vulkan-radeon lib32-vulkan-radeon linux-firmware-atheros linux-firmware-intel linux-firmware-realtek linux-firmware-amdgpu linux-firmware-radeon gamescope gamemode pipewire pipewire-pulse  ttf-roboto kitty-terminfo git wget pipewire-jack flatpak cosmic-store flatpak-kcm fuse weston umu-launcher btop gdm networkmanager xorg-server gnome
+pacman -S linux-zen amd-ucode mkinitcpio openssh firewalld systemd-ukify wireless-regdb sof-firmware lib32-mesa mesa  vulkan-radeon lib32-vulkan-radeon linux-firmware-atheros linux-firmware-intel linux-firmware-realtek linux-firmware-amdgpu linux-firmware-radeon gamescope gamemode pipewire lib32-pipewire  pipewire-alsa pipewire-pulse ttf-roboto kitty-terminfo git wget pipewire-jack flatpak cosmic-store flatpak-kcm fuse weston umu-launcher btop gdm dolphin-emu networkmanager xorg-server gnome steam waydroid kodi-gles
 ```
 
 ## config
@@ -94,18 +94,15 @@ mkdir /var/games/nintendo-switch/{engine,firmware,keyprod,library}
 mkdir /var/games/xbox360/{engine,firmware,keyprod,library}
 ```
 ```
-mkdir epic/{engine,prefix,library}
+mkdir /var/games/epic/{engine,prefix,library}
 ```
 ```
-mkdir steam/{engine,prefix,library}
+mkdir /var/games/steam/{engine,prefix,library}
 ```
 ```
-mkdir ubisoft/{engine,prefix,library}
+mkdir /var/games/ubisoft/{engine,prefix,library}
 ```
-## steam
-```
-pacman -S steam --noconfirm
-```
+
 ## user
 ```
 useradd -m [name]
@@ -160,12 +157,6 @@ cd /var/games/nintend-switch/keyprod
 ```
 wget https://files.prodkeys.net/ProdKeys.NET-v20.5.0.zip
 ```
-
-## nintendo wii/gamecube
-```
-pacman -S dolphin-emu
-```
-
 
 ## playstation1
 ```
@@ -240,18 +231,12 @@ mv rpcs3-v0.0.38-18328-e48ba283_linux64.AppImage latest.AppImage
 
 ## android
 ```
-pacman -S waydroid --noconfirm
-```
-```
 waydroid init -s GAPPS
 ```
 ```
 systemctl enable waydroid-container.service
 ```
 ## multimedia
-```
-pacman -S kodi-gles
-```
 ```
 rm /usr/share/wayland-sessions/kodi-gbm.desktop
 ```
@@ -260,9 +245,6 @@ rm /usr/share/xsessions/kodi.desktop
 ```
 
 ## booting
-```
-echo "root=/dev/nvme0n1p5" > /etc/cmdline.d/01-boot.conf
-```
 ```
 mkdir -p /boot/{efi,kernel,loader}
 ```
@@ -275,9 +257,6 @@ mv /boot/vmlinuz-linux-zen /boot/amd-ucode.img /boot/kernel/
 ```
 rm /boot/initramfs-*
 ```
-
-## secured
-
 ```
 bootctl --path=/boot/ install
 ```
