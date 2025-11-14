@@ -140,3 +140,11 @@ git clone https://github.com/blackbird-package/level-21 /tmp
 ```
 cp -fr /tmp/level-21/* /
 ```
+*radeon*
+```
+cp -fr /tmp/radeon/* /
+```
+*nvidia*
+```
+cp -fr /tmp/nvidia/* /
+```
