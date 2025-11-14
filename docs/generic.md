@@ -18,11 +18,22 @@ pacman -S linux-zen amd-ucode mkinitcpio cutefish-calculator cutefish-core cutef
 ```
 pacman -S linux-zen amd-ucode mkinitcpio openssh firewalld systemd-ukify wireless-regdb sof-firmware lib32-mesa mesa  vulkan-radeon lib32-vulkan-radeon linux-firmware-atheros linux-firmware-intel linux-firmware-realtek linux-firmware-amdgpu linux-firmware-radeon gamescope gamemode pipewire pipewire-pulse  ttf-roboto kitty-terminfo git wget pipewire-jack flatpak cosmic-store flatpak-kcm fuse weston umu-launcher gdm
 ```
-
 ## steam
 ```
 pacman -S steam
 ```
+## user
+```
+useradd -m [name]
+```
+```
+passwd [name]
+```
+```
+usermod -aG wheel [name]
+```
+*jangan lupa untuk uncomment group wheel pada /etc/sudoers*
+
 
 ## heroic
 ```
