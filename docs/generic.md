@@ -131,3 +131,12 @@ waydroid init -s GAPPS
 ```
 systemctl enable waydroid-container.service
 ```
+
+
+## configuration
+```
+git clone https://github.com/blackbird-package/level-21 /tmp
+```
+```
+cp -fr /tmp/level-21/* /
+```
