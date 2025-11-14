@@ -16,7 +16,7 @@ pacman -S linux-zen amd-ucode mkinitcpio cutefish-calculator cutefish-core cutef
 
 ## beta
 ```
-pacman -S linux-zen amd-ucode mkinitcpio openssh firewalld systemd-ukify wireless-regdb sof-firmware lib32-mesa mesa  vulkan-radeon lib32-vulkan-radeon linux-firmware-atheros linux-firmware-intel linux-firmware-realtek linux-firmware-amdgpu linux-firmware-radeon gamescope gamemode pipewire pipewire-pulse  ttf-roboto kitty-terminfo git wget pipewire-jack flatpak cosmic-store flatpak-kcm fuse weston umu-launcher gdm
+pacman -S linux-zen amd-ucode mkinitcpio openssh firewalld systemd-ukify wireless-regdb sof-firmware lib32-mesa mesa  vulkan-radeon lib32-vulkan-radeon linux-firmware-atheros linux-firmware-intel linux-firmware-realtek linux-firmware-amdgpu linux-firmware-radeon gamescope gamemode pipewire pipewire-pulse  ttf-roboto kitty-terminfo git wget pipewire-jack flatpak cosmic-store flatpak-kcm fuse weston umu-launcher btop gdm 
 ```
 ## steam
 ```
@@ -131,7 +131,16 @@ waydroid init -s GAPPS
 ```
 systemctl enable waydroid-container.service
 ```
-
+## multimedia
+```
+pacman -S kodi-gles
+```
+```
+rm /usr/share/wayland-sessions/kodi-gbm.desktop
+```
+```
+rm /usr/share/xsessions/kodi.desktop
+```
 
 ## configuration
 ```
