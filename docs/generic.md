@@ -245,23 +245,31 @@ rm /usr/share/xsessions/kodi.desktop
 ```
 
 ## booting
+
 ```
 mkdir -p /boot/{efi,kernel,loader}
 ```
+
 ```
 mkdir -p /boot/efi/{boot,linux,systemd,rescue}
 ```
+
 ```
 mv /boot/vmlinuz-linux-zen /boot/amd-ucode.img /boot/kernel/
 ```
+
 ```
 rm /etc/mkinitcpio.conf
 ```
+
 ```
 rm -fr /etc/mkinitcpio.conf.d/
 ```
+
+```
 rm /boot/initramfs-*
 ```
+
 ```
 bootctl --path=/boot/ install
 ```
