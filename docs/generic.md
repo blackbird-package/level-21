@@ -9,6 +9,36 @@ genfstab -U /mnt > /mnt/etc/fstab
 arch-chroot /mnt
 ```
 
+
+### hostname 
+```
+echo 'nama_hostname' > /etc/hostname
+```
+### locatime 
+```
+ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+```
+```
+hwclock --systohc
+```
+```
+timedatectl set-ntp true
+```
+```
+timedatectl set-timezone Asia/Jakarta
+```
+```
+timedatectl status
+```
+```
+systemctl enable systemd-timesyncd.service
+```
+
+### locale 
+```
+locale-gen
+```
+
 ## alpha
 ```
 pacman -S linux-zen amd-ucode mkinitcpio cutefish-calculator cutefish-core cutefish-dock cutefish-filemanager cutefish-icons cutefish-launcher cutefish-qt-plugins cutefish-screenlocker cutefish-screenshot cutefish-settings cutefish-statusbar cutefish-terminal cutefish-wallpapers openssh firewalld systemd-ukify wireless-regdb sof-firmware lib32-mesa mesa  vulkan-radeon lib32-vulkan-radeon linux-firmware-atheros linux-firmware-intel linux-firmware-realtek linux-firmware-amdgpu linux-firmware-radeon gamescope gamemode pipewire pipewire-pulse ttf-roboto kitty-terminfo git wget pipewire-jack flatpak cosmic-store flatpak-kcm fuse weston umu-launcher sddm
