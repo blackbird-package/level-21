@@ -18,13 +18,8 @@ nvim /etc/pacman.conf
 pacman -Syy
 ```
 ```
-<<<<<<< HEAD
 pacman -S linux-zen amd-ucode mkinitcpio openssh firewalld wireless-regdb sof-firmware lib32-mesa mesa vulkan-radeon lib32-vulkan-radeon linux-firmware-atheros linux-firmware-intel linux-firmware-realtek linux-firmware-amdgpu linux-firmware-radeon gamescope gamemode pipewire lib32-pipewire  pipewire-alsa pipewire-pulse ttf-roboto kitty-terminfo git wget pipewire-jack flatpak cosmic-store flatpak-kcm fuse weston umu-launcher btop gdm dolphin-emu networkmanager xorg-server steam waydroid kodi-gles base-devel bluez-utils cutefish-calculator cutefish-core cutefish-dock cutefish-filemanager cutefish-icons 
 cutefish-launcher cutefish-qt-plugins cutefish-screenlocker cutefish-screenshot cutefish-settings cutefish-statusbar cutefish-terminal cutefish-wallpapers aria2 --noconfirm
-=======
-pacman -S linux-zen amd-ucode mkinitcpio openssh firewalld wireless-regdb sof-firmware lib32-mesa mesa vulkan-radeon lib32-vulkan-radeon linux-firmware-atheros linux-firmware-intel linux-firmware-realtek linux-firmware-amdgpu linux-firmware-radeon gamescope gamemode pipewire lib32-pipewire  pipewire-alsa pipewire-pulse ttf-roboto kitty-terminfo git wget pipewire-jack flatpak cosmic-store flatpak-kcm fuse weston umu-launcher btop gdm dolphin-emu networkmanager xorg-server steam waydroid kodi-gles base-devel bluez-utils cutefish-calculator cutefish-core cutefish-dock cutefish-filemanager cutefish-icons	
-cutefish-launcher cutefish-qt-plugins cutefish-screenlocker cutefish-screenshot cutefish-settings cutefish-statusbar cutefish-terminal cutefish-wallpapers 
->>>>>>> 099d8e7bdfd67421432d4dc0b257ebdd64d1ca9b
 ``` 
 
 ## config
