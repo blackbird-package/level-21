@@ -2,7 +2,7 @@
 
 xrandr --output eDP-1 --scale 1x1.08
 
-SCRIPT_DIR=/var/games/nintendo-switch/engine
+SCRIPT_DIR=/home/child/.local/games/nintendo-switch/engine
 
 if [ -f "$SCRIPT_DIR/Ryujinx.Headless.SDL3" ]; then
     RYUJINX_BIN="Ryujinx.Headless.SDL3"
