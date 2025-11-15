@@ -2,6 +2,6 @@
 Type=Application
 Exec=/usr/xbin/launch-plays1
 TryExec=/usr/xbin/launch-plays1
-Name=Ubisoft Connect
+Name=Playstation
 Keywords=session
 Comment=session

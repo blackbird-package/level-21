@@ -1,0 +1,4 @@
+if [[ $USER != "family" ]];then
+	echo "acces denied";
+    exit
+fi
