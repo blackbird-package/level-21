@@ -8,11 +8,11 @@ PRESETS=('default')
 #PRESETS=('default' 'fallback')
 
 #default_config="/etc/mkinitcpio.conf"
-#default_image="/boot/initramfs-linux-zen.img"
-default_uki="/boot/efi/linux/black-hawke.efi"
-#default_options="--splash /usr/share/systemd/bootctl/splash-hawke.bmp"
+#default_image="/boot/creamie.img"
+default_uki="/boot/efi/linux/creamie.efi"
+#default_options="--splash /usr/share/systemd/bootctl/creamie.bmp"
 
 #fallback_config="/etc/mkinitcpio.conf"
-#fallback_image="/boot/initramfs-linux-zen-fallback.img"
-#fallback_uki="/efi/EFI/Linux/black-hawke-fallback.efi"
+#fallback_image="/boot/creamie-fallback.img"
+#fallback_uki="/efi/EFI/Linux/creamie.efi"
 #fallback_options="-S autodetect"
