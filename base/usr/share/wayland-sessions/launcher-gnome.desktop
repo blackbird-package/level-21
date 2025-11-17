@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Workstation
-Comment=This session logs you into desktop
-Exec=/usr/bin/gnome-session
-TryExec=/usr/bin/gnome-session
-Type=Application
-DesktopNames=Workstation
-X-GDM-SessionRegisters=true
-X-GDM-CanRunHeadless=true

@@ -18,7 +18,7 @@ nvim /etc/pacman.conf
 pacman -Syy
 ```
 ```
-pacman -S linux-zen amd-ucode mkinitcpio openssh firewalld wireless-regdb sof-firmware lib32-mesa mesa vulkan-radeon lib32-vulkan-radeon linux-firmware-atheros linux-firmware-intel linux-firmware-other linux-firmware-realtek linux-firmware-amdgpu linux-firmware-radeon gamescope gamemode pipewire lib32-pipewire pipewire-alsa pipewire-pulse ttf-roboto kitty-terminfo git wget pipewire-jack flatpak discover fuse weston umu-launcher btop lightdm  lightdm-webkit2-greeter scx-scheds kwallet dolphin-emu networkmanager xorg-server steam waydroid kodi-gles base-devel bluez-utils cutefish-calculator cutefish-core cutefish-dock cutefish-filemanager cutefish-icons 
+pacman -S linux-zen scx-scheds amd-ucode wireless-regdb mkinitcpio openssh firewalld sof-firmware lib32-mesa mesa vulkan-radeon lib32-vulkan-radeon linux-firmware-atheros linux-firmware-intel linux-firmware-other linux-firmware-realtek linux-firmware-amdgpu linux-firmware-radeon gamescope gamemode pipewire lib32-pipewire pipewire-alsa pipewire-pulse ttf-roboto kitty-terminfo git wget pipewire-jack flatpak discover fuse weston umu-launcher btop lightdm  lightdm-webkit2-greeter kwallet dolphin-emu networkmanager xorg-server steam waydroid kodi-gles base-devel bluez-utils cutefish-calculator cutefish-core cutefish-dock cutefish-filemanager cutefish-icons 
 cutefish-launcher cutefish-qt-plugins cutefish-screenlocker cutefish-screenshot cutefish-settings cutefish-statusbar cutefish-terminal cutefish-wallpapers aria2 --noconfirm
 ``` 
 
